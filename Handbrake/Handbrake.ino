@@ -2,8 +2,8 @@
 
 const uint8_t POT_PIN = A0; // change to A1/A2/A3 if soldered to different analog pin
 const bool INVERT = true;  // set true if direction is backwards
-const int start = 900;     // adjust value to increase distance you need to pull handbrake for start of activation
-const int end = 900;       // adjust value to reduce distance you need to pull handbrake for full activation
+const int start = 1023;     // adjust value to increase distance you need to pull handbrake for start of activation (default 1023)
+const int end = 1023;       // adjust value to reduce distance you need to pull handbrake for full activation (default 1023)
 
 // disables unnecessary joystick library features
 Joystick_ Joystick(
