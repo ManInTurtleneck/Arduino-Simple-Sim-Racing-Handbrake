@@ -1,5 +1,7 @@
 # 🏎️ DIY Sim Racing Handbrake
 
+🎥 **Video Demonstration:** [![Watch on Youtube](https://img.youtube.com/vi/xehlGfEhLI8/0.jpg)](https://www.youtube.com/watch?v=xehlGfEhLI8)
+
 I love sim racing but hate overspending.  
 Most cheap handbrakes online go for **$100+** — despite being super simple and often poorly designed (buttons instead of potentiometers, too many screws, inconsistent parts).  
 
@@ -14,8 +16,6 @@ So, I designed my own: a **low-cost, 3D-printable handbrake** that’s easy to b
 - **Simple design** → minimal screws, no glue/tape required  
 - Printed in **PLA** on an Ender 3  
 - Strong, reliable, and fun to use 🎮  
-
-🎥 **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=99uWZeAxHTg)
 
 ---
 
