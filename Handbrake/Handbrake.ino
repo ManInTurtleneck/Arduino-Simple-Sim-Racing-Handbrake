@@ -9,13 +9,13 @@ const int end = 1023;       // adjust value to reduce distance you need to pull 
 Joystick_ Joystick(
   JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD,
   0, 0,                       // buttons, hats
-  false, false, false,        // X,Y,Z
+  true, false, false,        // X,Y,Z
   false, false, false,        // Rx,Ry,Rz
-  false, true,  false,  false // Rudder, Throttle, Accelerator, Steering
+  false, false,  false,  false // Rudder, Throttle, Accelerator, Steering
 );
 
 void setup() {
-  Joystick.setThrottleRange(0, end); 
+  Joystick.setXAxisRange(0, end); 
   Joystick.begin(false);
 }
 
@@ -23,7 +23,7 @@ void loop() {
   int raw = analogRead(POT_PIN);
   if (INVERT) raw = start - raw; 
     else raw -= (1023 - start);
-  Joystick.setThrottle(raw);
+  Joystick.setXAxis(raw);
   Joystick.sendState();
   delay(2);
 }
